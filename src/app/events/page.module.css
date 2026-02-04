@@ -56,7 +56,58 @@
 }
 
 .hallOfFame {
-    margin-top: 8rem;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px dashed var(--color-text-dim);
+}
+
+.tableHeader {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--color-primary);
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: var(--color-text-dim);
+    text-align: left;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .tableHeader {
+        display: none;
+        /* Hide headers on mobile */
+    }
+
+    .row {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        padding: 1.5rem 0;
+    }
+
+    .row span:nth-child(1) {
+        /* Year */
+        color: var(--color-secondary);
+        font-weight: 700;
+    }
+
+    .row span:nth-child(2) {
+        /* Winner */
+        font-size: 1.2rem;
+        color: var(--color-primary);
+    }
+
+    .row span:nth-child(3) {
+        /* Project */
+        opacity: 0.8;
+    }
 }
 
 .table {

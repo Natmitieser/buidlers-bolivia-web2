@@ -8,7 +8,7 @@ export default function DataStream({ data }: DataStreamProps) {
     return (
         <div className={styles.stream}>
             {data.map((line, i) => (
-                <span key={i} style={{ display: 'block', marginLeft: `${Math.random() * 5}rem` }}>
+                <span key={i} className={styles.line} style={{ paddingLeft: `${Math.random() * 2}rem` }}>
                     {line}
                 </span>
             ))}

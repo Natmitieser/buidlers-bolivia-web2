@@ -12,4 +12,17 @@
 .line {
     display: block;
     margin-bottom: 0.2rem;
+    white-space: nowrap;
+    /* Keep it single line */
+}
+
+@media (max-width: 768px) {
+    .stream {
+        width: 100%;
+        overflow-x: hidden;
+        /* Cut off overflow cleanly */
+        font-size: 0.7rem;
+    }
+
+    /* Reset margins in JS via prop if possible, but CSS can limit damage */
 }
