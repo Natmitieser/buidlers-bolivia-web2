@@ -1,0 +1,33 @@
+[
+    {
+        "id": "buidlers-realm",
+        "title": "Buidlers Realm",
+        "description": "Donde la innovación nunca se detiene. Un ecosistema híbrido {físico y virtual} que funcione como fuego creador.",
+        "tags": [
+            "Web3",
+            "AI",
+            "Community"
+        ],
+        "link": "https://buidlers.org"
+    },
+    {
+        "id": "build-freedom",
+        "title": "Build Freedom",
+        "description": "Herramientas para humanos, no para corporaciones. Privacidad = poder compartido.",
+        "tags": [
+            "Privacy",
+            "Tools"
+        ],
+        "link": "#"
+    },
+    {
+        "id": "systems-check",
+        "title": "Systems Check",
+        "description": "Innovar sin ceder el control de tus datos.",
+        "tags": [
+            "Security",
+            "Infrastructure"
+        ],
+        "link": "#"
+    }
+]

@@ -1,0 +1,101 @@
+.container {
+    background: rgba(26, 26, 25, 0.6);
+    /* Dark card like others */
+    border: 1px solid var(--color-primary);
+    /* Yellow border */
+    color: var(--color-text);
+    padding: 4rem 2rem;
+    margin: 4rem 0;
+    backdrop-filter: blur(5px);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.label {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    display: block;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+    /* Yellow accent */
+}
+
+.title {
+    font-family: var(--font-sans);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 0.9;
+    margin-bottom: 2rem;
+    letter-spacing: -0.05em;
+    text-transform: lowercase;
+    color: var(--color-text);
+    /* White */
+}
+
+.specs {
+    margin-bottom: 3rem;
+    font-family: var(--font-mono);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1rem;
+}
+
+.spec {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 0;
+    font-weight: 700;
+}
+
+.spec span {
+    opacity: 0.6;
+    font-weight: 400;
+    color: var(--color-primary);
+}
+
+.cta {
+    background: var(--color-primary);
+    color: var(--color-background);
+    /* Black text on yellow button */
+    border: none;
+    padding: 1rem 2rem;
+    font-family: var(--font-mono);
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.cta:hover {
+    transform: translateY(-2px);
+}
+
+.visual {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.placeholderBox {
+    background: rgba(255, 255, 255, 0.05);
+    /* Light overlay */
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    border: 1px dashed rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.5);
+}

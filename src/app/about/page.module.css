@@ -1,0 +1,67 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+.genesisBlock {
+    border: 1px solid var(--color-primary);
+    padding: 2rem;
+    margin-bottom: 4rem;
+    background: rgba(241, 230, 93, 0.05);
+}
+
+.ethicsBlock {
+    border-left: 4px solid var(--color-secondary);
+    padding-left: 2rem;
+    margin-bottom: 4rem;
+}
+
+.manifestoList {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.manifestoItem {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    position: relative;
+    padding-left: 2rem;
+}
+
+.manifestoItem::before {
+    content: ">>";
+    position: absolute;
+    left: 0;
+    color: var(--color-primary);
+    font-family: var(--font-mono);
+}
+.teamSection {
+  margin-top: 4rem;
+  border-top: 2px dashed var(--color-text-dim);
+  padding-top: 4rem;
+}
+
+.commitLog {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+.commit {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.hash {
+  color: var(--color-secondary);
+}
+
+.author {
+  color: var(--color-primary);
+  width: 150px;
+}

@@ -1,0 +1,72 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(16, 16, 15, 0.9);
+    /* #10100F with opacity */
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(241, 230, 93, 0.1);
+    /* Subtle yellow border */
+    z-index: 100;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0;
+    padding: 1.5rem 3rem;
+    /* "márgenes de seguridad" */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoLink {
+    text-decoration: none;
+    display: block;
+}
+
+/* Old logo styles removed, Logo component handles it */
+
+.logo::before {
+    content: "} ";
+    color: var(--color-text);
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .links {
+        display: none;
+    }
+}
+
+.link {
+    color: var(--color-text-dim);
+    text-decoration: none;
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    transition: color 0.2s;
+}
+
+.link:hover {
+    color: var(--color-primary);
+    text-shadow: 0 0 8px rgba(241, 230, 93, 0.4);
+}
+
+.link::before {
+    content: ">";
+    position: absolute;
+    left: -15px;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.link:hover::before {
+    opacity: 1;
+}

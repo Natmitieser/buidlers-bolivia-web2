@@ -1,0 +1,15 @@
+.stream {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--color-text-dim);
+    opacity: 0.5;
+    padding: 2rem 0;
+    overflow: hidden;
+    white-space: nowrap;
+    user-select: none;
+}
+
+.line {
+    display: block;
+    margin-bottom: 0.2rem;
+}

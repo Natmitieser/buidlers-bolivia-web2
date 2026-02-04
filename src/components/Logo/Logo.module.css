@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    object-fit: contain;
+    max-height: 2.5rem;
+    /* Matches navbar height nicely */
+    width: auto;
+}

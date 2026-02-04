@@ -1,0 +1,61 @@
+{
+    "hero": {
+        "lines": [
+            "echo \"Construimos el futuro digital con soberanía, privacidad y comunidad.\"",
+            "echo \"Web3 + IA ética = herramientas para humanos, no para corporaciones.\"",
+            "./join_buidlers --init"
+        ]
+    },
+    "vision": {
+        "title": "Visión",
+        "items": [
+            "Autonomía y privacidad como derechos digitales fundamentales;",
+            "Innovación guiada por la ética y el valor comunitario;",
+            "Incubar y lanzar tecnologías en Web3 y en inteligencia artificial que potencien y aporten valor real;"
+        ],
+        "text": "Nuestra visión es incubar y lanzar tecnologías en Web3 y en inteligencia artificial que potencien y aporten valor real, construyendo un ecosistema híbrido {físico y virtual} que funcione como fuego creador para quienes buscan construir para el bien común;"
+    },
+    "mission": {
+        "title": "Misión",
+        "text": "Nuestra misión es transformar la tecnología en un terreno fértil de soberanía, transparencia y colaboración, dando lugar a cada individuo y a la comunidad en su conjunto; creando herramientas y medios que potencian a quienes construyen, para que su talento y visión sean los motores de este nuevo comienzo;"
+    },
+    "values": [
+        {
+            "title": "Soberanía",
+            "description": "Es el principio de control total e inalienable sobre la propia identidad y los propios datos;"
+        },
+        {
+            "title": "Autonomía",
+            "description": "Libertad fundamental del ser para crear; Es la capacidad de cada individuo de tomar decisiones, proponer ideas y ejecutar código sin pedir permiso;"
+        },
+        {
+            "title": "Transparencia",
+            "description": "La lógica visible es la base de la confianza; La revisión es parte fundamental de nuestra promesa;"
+        },
+        {
+            "title": "Resiliencia",
+            "description": "La fortaleza estructural de la red; Distribución de funciones para que la falla de un nodo no comprometa la totalidad del sistema;"
+        },
+        {
+            "title": "Privacidad",
+            "description": "La privacidad como un derecho creativo; El individuo tiene la potestad de decidir qué forma toma su identidad;"
+        },
+        {
+            "title": "Innovación",
+            "description": "Avance constante, progreso medible y comprobable;"
+        },
+        {
+            "title": "Colaboración",
+            "description": "El proyecto avanza gracias a la integración constante de contribuciones internas y externas;"
+        },
+        {
+            "title": "Talento",
+            "description": "Reconocimiento de la contribución individual dentro del ecosistema;"
+        }
+    ],
+    "manifesto": {
+        "title": "El Rebrand",
+        "text": "El rebrand de buidlers surge de una certeza: lo que existía ya no alcanza; Nace frente a una realidad desgastada: ecosistemas que prometieron innovación terminaron repitiendo viejas lógicas de control y dependencia; Buidlers es el punto cero, donde se quema lo anterior para construir algo nuevo: No venimos a levantar muros ni a custodiar fronteras: venimos a construir un territorio vivo;",
+        "cta": "Este es nuestro momentum; Y decidimos escribir lo que viene;"
+    }
+}

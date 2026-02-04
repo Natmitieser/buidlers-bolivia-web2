@@ -1,0 +1,22 @@
+.block {
+    border: 1px solid var(--color-text-dim);
+    padding: 0.5rem 1rem;
+    font-family: var(--font-mono);
+    display: flex;
+    flex-direction: column;
+    background: rgba(16, 16, 15, 0.8);
+    backdrop-filter: blur(4px);
+}
+
+.label {
+    font-size: 0.7rem;
+    color: var(--color-text-dim);
+    text-transform: uppercase;
+    margin-bottom: 0.2rem;
+}
+
+.value {
+    font-size: 1.1rem;
+    color: var(--color-primary);
+    font-weight: bold;
+}

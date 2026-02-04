@@ -1,0 +1,23 @@
+[
+    {
+        "id": "hoodie-black",
+        "name": "Buidlers Hoodie",
+        "price": "Coming Soon",
+        "image": "/images/hoodie.jpg",
+        "description": "Pixel Operator Mono print. 100% Cotton."
+    },
+    {
+        "id": "cap-yellow",
+        "name": "Kernel Cap",
+        "price": "Coming Soon",
+        "image": "/images/cap.jpg",
+        "description": "Yellow accented high visibility cap."
+    },
+    {
+        "id": "sticker-pack",
+        "name": "Console Sticker Pack",
+        "price": "Free @ Events",
+        "image": "/images/stickers.jpg",
+        "description": "Glitch aesthetics for your laptop."
+    }
+]

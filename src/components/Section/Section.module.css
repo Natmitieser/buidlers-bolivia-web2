@@ -1,0 +1,44 @@
+.section {
+    padding: 6rem 1rem;
+    border-bottom: 1px dashed var(--color-text-dim);
+    position: relative;
+    /* Brand Book: "utilizar misceláneas de programación como '}' para cerrar secciones" */
+}
+
+.section::after {
+    content: "}";
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 2rem;
+    color: var(--color-primary);
+    margin-top: 2rem;
+    opacity: 0.8;
+}
+
+.title {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    /* Inter Medium */
+    font-size: 2.5rem;
+    background: transparent;
+    padding: 0;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+.title::before {
+    content: "/* ";
+    color: var(--color-text-dim);
+}
+
+.title::after {
+    content: " */";
+    color: var(--color-text-dim);
+}
+
+.content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 800px;
+}

@@ -1,0 +1,24 @@
+{
+    "genesis": {
+        "title": "Génesis",
+        "subtitle": "Acto Fundacional",
+        "content": "Iniciar una nueva lógica; el punto cero para construir; Representa la Determinación de arrancar un sistema mejor;"
+    },
+    "ethics": {
+        "title": "Ética",
+        "subtitle": "Algoritmo Esencial",
+        "content": "Ética es el algoritmo esencial del buidler y la primera regla de nuestro código; Es el compromiso inquebrantable con la defensa del bienestar en común sobre cualquier métrica de crecimiento o ganancia;"
+    },
+    "manifesto": {
+        "title": "Manifiesto",
+        "content": [
+            "El rebrand de buidlers surge de una certeza: lo que existía ya no alcanza;",
+            "Nace frente a una realidad desgastada: ecosistemas que prometieron innovación terminaron repitiendo viejas lógicas de control y dependencia;",
+            "Nosotros venimos a encender la chispa de un nuevo comienzo;",
+            "Buidlers es el punto cero, donde se quema lo anterior para construir algo nuevo;",
+            "No venimos a levantar muros ni a custodiar fronteras: venimos a construir un territorio vivo, fértil y compartido;",
+            "La tecnología vuelve a ser lo que siempre debió ser: un acto de creación;"
+        ]
+    },
+    "team": []
+}

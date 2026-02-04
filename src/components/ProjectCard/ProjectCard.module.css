@@ -1,0 +1,114 @@
+.card {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: var(--color-background);
+    transition: all 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.card:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-2px);
+}
+
+.imagePlaceholder {
+    aspect-ratio: 16/9;
+    background: rgba(26, 26, 25, 0.5);
+    /* #1A1A19 roughly */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Dither overlay */
+.imagePlaceholder::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(#333 1px, transparent 1px);
+    background-size: 4px 4px;
+    opacity: 0.2;
+}
+
+.badge {
+    background: var(--color-primary);
+    color: var(--color-background);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    font-weight: 700;
+    position: relative;
+    z-index: 2;
+}
+
+.content {
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-family: var(--font-sans);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    /* Yellow title as per screenshot */
+    letter-spacing: -0.03em;
+}
+
+.id {
+    font-family: var(--font-mono);
+    color: var(--color-text-dim);
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+
+.description {
+    color: var(--color-text);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1rem;
+    margin-top: auto;
+}
+
+.tags {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.tag {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.2rem 0.6rem;
+    color: var(--color-text-dim);
+}
+
+.linkStart {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--color-text-dim);
+    opacity: 0.6;
+}

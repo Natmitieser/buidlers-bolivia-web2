@@ -1,0 +1,54 @@
+{
+    "navigation": [
+        {
+            "label": "Showcase",
+            "href": "/showcase"
+        },
+        {
+            "label": "Swag",
+            "href": "/swag"
+        },
+        {
+            "label": "About",
+            "href": "/about"
+        },
+        {
+            "label": "Events",
+            "href": "/events"
+        }
+    ],
+    "metadata": {
+        "title": "Buidlers",
+        "description": "Web3 + AI Ethics"
+    },
+    "socials": [
+        {
+            "label": "TWITTER (X)",
+            "href": "https://x.com/Buidlersbo"
+        },
+        {
+            "label": "INSTAGRAM",
+            "href": "https://www.instagram.com/buidlersbo/"
+        },
+        {
+            "label": "LINKEDIN",
+            "href": "https://www.linkedin.com/company/buidlers-bolivia"
+        },
+        {
+            "label": "FACEBOOK",
+            "href": "https://www.facebook.com/BuidlersBolivia/"
+        },
+        {
+            "label": "TIKTOK",
+            "href": "https://www.tiktok.com/@buidlersbo"
+        },
+        {
+            "label": "WHATSAPP",
+            "href": "https://chat.whatsapp.com/LQhkv0R2fGa4FDwYuUE443"
+        },
+        {
+            "label": "LUMA (EVENTS)",
+            "href": "https://luma.com/user/buidlersbolivia"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+.container {
+    margin: 4rem 0;
+}
+
+.header {
+    font-family: var(--font-sans);
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.bullet {
+    color: var(--color-primary);
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    line-height: 1;
+}
+
+.text {
+    flex: 1;
+}
+
+.title {
+    display: block;
+    font-family: var(--font-sans);
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+    text-transform: uppercase;
+}
+
+.desc {
+    font-family: var(--font-mono);
+    color: var(--color-text);
+    opacity: 0.8;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}

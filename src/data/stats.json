@@ -1,0 +1,30 @@
+[
+    {
+        "label": "TOTAL_BUIDLERS",
+        "value": "4,209"
+    },
+    {
+        "label": "BLOCKS_PARSED",
+        "value": "12,938,102"
+    },
+    {
+        "label": "AVG_LATENCY",
+        "value": "12ms"
+    },
+    {
+        "label": "SYSTEM_STATUS",
+        "value": "OPERATIONAL"
+    },
+    {
+        "label": "NEXT_EPOCH",
+        "value": "48h 20m"
+    },
+    {
+        "label": "ETH_PRICE",
+        "value": "PENDING..."
+    },
+    {
+        "label": "NODES_ACTIVE",
+        "value": "89%"
+    }
+]

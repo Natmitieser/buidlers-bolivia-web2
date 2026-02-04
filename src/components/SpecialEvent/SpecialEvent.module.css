@@ -1,0 +1,97 @@
+.container {
+    background: rgba(16, 16, 15, 0.6);
+    /* Brand Dark with transparency */
+    border: 1px solid var(--color-primary);
+    padding: 2rem;
+    margin: 4rem 1rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+}
+
+/* Connect to timeline */
+.container::before {
+    content: "";
+    position: absolute;
+    left: -2rem;
+    /* Reach the timeline line */
+    top: 2rem;
+    height: 1px;
+    width: 2rem;
+    background: var(--color-primary);
+}
+
+.header {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.badge {
+    background: var(--color-primary);
+    color: var(--color-background);
+    font-family: var(--font-mono);
+    padding: 0.2rem 0.5rem;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.date {
+    font-family: var(--font-mono);
+    color: var(--color-primary);
+}
+
+.title {
+    font-family: var(--font-sans);
+    color: var(--color-primary);
+    /* Changed to Yellow to avoid "link blue" look */
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-family: var(--font-mono);
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.details {
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.detailLine {
+    margin-bottom: 0.5rem;
+}
+
+.graphic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.ascii {
+    font-family: var(--font-mono);
+    color: var(--color-primary);
+    font-size: 0.8rem;
+    line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}

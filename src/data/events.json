@@ -1,0 +1,18 @@
+[
+    {
+        "id": "hackathon-web3-ai",
+        "title": "48h de build (Web3 + IA)",
+        "date": "2025-09-20T18:00:00",
+        "location": "TBD",
+        "description": "Premios por privacidad UX y seguridad criptográfica. Seeds, mentorías y acceso a infra.",
+        "status": "upcoming"
+    },
+    {
+        "id": "cena-agradecimiento",
+        "title": "Cena de agradecimiento",
+        "date": "2025-12-21T16:30:00",
+        "location": "Condominio Sky Elite",
+        "description": "Queremos tomarnos un momento para agradecer a cada voluntario y al core team que hizo posible los eventos. La idea es cerrar el año como se debe.",
+        "status": "upcoming"
+    }
+]

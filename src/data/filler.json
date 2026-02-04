@@ -1,0 +1,68 @@
+{
+    "bigStatements": [
+        "DECENTRALIZATION IS NOT A CHOICE, IT IS A NECESSITY;",
+        "CODE IS LAW // HUMANITY IS THE COMPILER",
+        "THE FUTURE IS BUILT, NOT PREDICTED;",
+        "ENCRYPT EVERYTHING; TRUST NO ONE;"
+    ],
+    "dataStream": [
+        "RUN: COMMS { diseño de piezas de comunicación }",
+        "INIT: LOGO { núcleo visual de la identidad }",
+        "LOAD: COLOR { sistema cromático base y contraste }",
+        "EXECUTE: TYPE { arquitectura tipográfica del sistema }",
+        "echo \"Construimos herramientas que empoderan a las personas.\"",
+        "web3 + ia // autonomía == por_defecto; privacidad == derecho;",
+        "STATUS: centralized control [!] ACTION: decentralize_now.sh",
+        "function empower() { return (knowledge + collaboration); }",
+        "echo \"Build with us → Buidlers.world\""
+    ],
+    "eventStats": [
+        {
+            "label": "TOTAL_HACKERS",
+            "value": "12,402"
+        },
+        {
+            "label": "PROJECTS_SHIPPED",
+            "value": "3,890"
+        },
+        {
+            "label": "PRIZES_DISTRIBUTED",
+            "value": "$1.2M+"
+        },
+        {
+            "label": "COUNTRIES",
+            "value": "54"
+        }
+    ],
+    "hallOfFame": [
+        {
+            "year": "2024",
+            "winner": "Team ZeroKnowledge",
+            "project": "ZK-Identity"
+        },
+        {
+            "year": "2023",
+            "winner": "DeFi Wizards",
+            "project": "FlashLoan V2"
+        },
+        {
+            "year": "2022",
+            "winner": "Pixel Punks",
+            "project": "NFT Bridge"
+        },
+        {
+            "year": "2021",
+            "winner": "Satoshi's Disciples",
+            "project": "Lightning Pay"
+        }
+    ],
+    "partners": [
+        "ETHEREUM_FOUNDATION",
+        "POLYGON_LABS",
+        "OPTIMISM_COLLECTIVE",
+        "RISC_ZERO",
+        "PROTOCOL_LABS",
+        "CHAINLINK",
+        "THE_GRAPH"
+    ]
+}
