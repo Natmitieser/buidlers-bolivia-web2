@@ -42,6 +42,29 @@
     text-transform: lowercase;
     color: var(--color-text);
     /* White */
+    word-wrap: break-word;
+    /* Ensure wrapping */
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 2rem 1rem;
+        /* Reduced padding */
+        margin: 2rem 0;
+        width: 100%;
+        /* Ensure it fits */
+        overflow: hidden;
+        /* Prevent spill */
+    }
+
+    .title {
+        font-size: 2rem;
+        /* Smaller font for mobile */
+    }
+
+    .grid {
+        gap: 2rem;
+    }
 }
 
 .specs {
@@ -85,6 +108,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+}
+
+@media (max-width: 480px) {
+    .visual {
+        grid-template-columns: 1fr;
+        /* Stack images on tiny screens */
+    }
 }
 
 .placeholderBox {

@@ -13,7 +13,7 @@ export default function Home() {
       <Hero />
 
       {/* Stats Injection */}
-      <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '0 2rem' }}>
+      <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 4rem' }}>
         <div className={styles.statsGrid}>
           {stats.map((stat, i) => (
             <StatBlock key={i} label={stat.label} value={stat.value} />
