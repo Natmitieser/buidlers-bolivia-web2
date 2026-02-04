@@ -72,6 +72,14 @@
     transform: translateY(-9px) rotate(-45deg);
 }
 
+/* Ensure decent size for touch targets */
+.hamburger {
+    padding: 5px;
+    box-sizing: content-box;
+    z-index: 101;
+    /* Ensure above mobile menu */
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 1rem 1.5rem;
